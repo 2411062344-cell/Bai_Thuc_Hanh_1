@@ -1,18 +1,4 @@
-
-so_thuc = 4.2
-so_phuc = 3 + 4j
-print(type(so_nguyen), type(so_thuc), type(so_phuc))
-print(float(so_nguyen)) # ep int -> float
-print(int(so_thuc)) # ep float -> int (cat phan thap phan)
-
-
-a = -7
-b = 2.6789
-c, d = 17
-
-print(abs(a)) # gia tri tuyet doi
-print(round(b)) # lam tron
-print(round(b, 2)) # lam tron 2 chu so thap phan
+ 2 chu so thap phan
 print(pow(c, 2)) # c mu 2
 print(divmod(c, d)) # tra ve (thuong, du) dang tuple
 
